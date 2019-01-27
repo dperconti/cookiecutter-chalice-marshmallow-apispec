@@ -1,7 +1,7 @@
 cookiecutter-chalice-marshmallow-apispec
 ========================================
 
-A [cookiecutter](https://github.com/audreyr/cookiecutter) template for Django.
+A [cookiecutter](https://github.com/audreyr/cookiecutter) template for chalice, marshmallow, & apispec.
 
 Description
 -----------
