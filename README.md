@@ -43,3 +43,9 @@ Create a GitHub repo and push it there::
     $ git commit -m "first commit"
     $ git remote add origin git@github.com:username/repo.git
     $ git push -u origin master
+    
+Generate the docs
+    
+    $ inv docs
+
+This will generate a complete swagger doc at `./docs/swagger.yaml`
