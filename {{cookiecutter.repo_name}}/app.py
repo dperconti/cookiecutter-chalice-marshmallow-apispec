@@ -22,16 +22,16 @@ def get_{{cookiecutter.resource}}():
     return Response(body={"Alive": True}, status_code=201)
 
 
-@app.route("/{{cookiecutter.resource}}/{{{cookiecutter.resource}}_id}", methods=['GET'])
+@app.route("/{{cookiecutter.resource}}/'{'{{cookiecutter.resource}}_id}", methods=['GET'])
 def get_stores({{cookiecutter.resource}}_id):
     return Response(body={"{{cookiecutter.resource}}_id": {{cookiecutter.resource}}_id}, status_code=200)
 
 
-@app.route("/{{cookiecutter.resource}}/{{{cookiecutter.resource}}_id}", methods=['DELETE'])
+@app.route("/{{cookiecutter.resource}}/'{'{{cookiecutter.resource}}_id}", methods=['DELETE'])
 def get_stores({{cookiecutter.resource}}_id):
     return Response(body={"{{cookiecutter.resource}}_id": {{cookiecutter.resource}}_id}, status_code=204)
 
 
-@app.route("/{{cookiecutter.resource}}/{{{cookiecutter.resource}}_id}", methods=['PATCH'])
+@app.route("/{{cookiecutter.resource}}/'{'{{cookiecutter.resource}}_id}", methods=['PATCH'])
 def get_stores({{cookiecutter.resource}}_id):
     return Response(body={"{{cookiecutter.resource}}_id": {{cookiecutter.resource}}_id}, status_code=200)
